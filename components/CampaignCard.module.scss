@@ -1,0 +1,56 @@
+$orange: rgba(255, 84, 0, 255);
+
+.card {
+    height: 550px;
+    width: 330px;
+}
+
+.banner {
+    position: relative;
+    height: 25%;
+}
+
+.body {
+    position: relative;
+    flex: 1;
+}
+
+.title {
+    position: relative;
+    height: 15%;
+}
+
+.logo {
+    position: relative;
+}
+
+.name {
+    white-space: nowrap;
+    flex: 1;
+    text-overflow: ellipsis;
+}
+
+.description {
+    display: -webkit-box;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+    line-height: 1.5em;
+    height: 3em;
+}
+
+.progressBar {
+    background-color: $orange;
+}
+
+.investBtn {
+    background-color: $orange;
+}
+
+.investBtn:hover,
+.investBtn:active {
+    background-color: #ca4f03 !important;
+}
+
+.text-orange {
+    color: $orange;
+}

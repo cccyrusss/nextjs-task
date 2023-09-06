@@ -1,0 +1,39 @@
+.top {
+    height: 70px;
+    background-color: white;
+}
+
+.home {
+    background-color: white;
+    border-radius: 80px 0 0 80px;
+    width: 50px;
+}
+
+.dropdownBtn {
+    background-color: white;
+    width: 160px;
+    border-radius: 0 0 0 0;
+    color: black;
+}
+
+.searchField {
+    flex: 1;
+    max-width: 500px;
+    min-width: 100px;
+}
+
+.input {
+    flex: 1;
+    min-width: 50px;
+}
+
+.input:focus-visible {
+    outline: none;
+}
+
+.searchBtn {
+    background-color: white;
+    width: 50px;
+    border-radius: 0 80px 80px 0;
+    color: black;
+}

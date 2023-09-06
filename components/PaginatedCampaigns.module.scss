@@ -1,0 +1,26 @@
+$orange: rgba(255, 84, 0, 255);
+
+.campaigns {
+    padding-top: 80px;
+}
+
+.pagination>div>button,
+.pagination>div>button:hover {
+    color: $orange;
+}
+
+.pagination>.activePage>button {
+    background-color: $orange !important;
+    color: white;
+}
+
+.pagination>.activePage>button:hover {
+    background-color: #ca4f03 !important;
+    color: white;
+}
+
+.pagination>div>button:focus,
+.pagination>div>button:focus-visible {
+    outline: none;
+    box-shadow: none;
+}
